@@ -1,0 +1,41 @@
+.game {
+    width: 312px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #ffff;
+}
+
+.title {
+    background-color: #f25;
+    padding: 5px 0;
+    margin: 5px 0;
+    color: #fa0;
+    height: 40px;
+    font-size: 30px;
+}
+
+.title span {
+    color: #fa0;
+}
+
+.squar {
+    width: 100px;
+    height: 100px;
+    background-color: #f25;
+    color: #fff;
+    float: left;
+    margin: 2px;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.squar:hover {
+    background-color: #000;
+    cursor: pointer;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+}
